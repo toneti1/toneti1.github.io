@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--Esto es para que sepa que es un html-->
+<html>
+
+<head>
+    <title>Mi primera web</title>
+</head>
+<body>
+    <!--Dentro de body se pone todo el contenido de la web-->
+    <h1>Mi primer heading</h1>
+    <h2>Mi segundo heading</h2>
+    <h3>Mi tercer heading</h3>
+    <h4>Mi cuarto heading</h4>
+    <h5>Mi quinto heading</h5>
+    <h6>Mi sexto heading</h6>
+    <h1>Los h1,2,3... son utilizados por los motores de busqueda para ver los títulos, subtítulos, sub-subtítulos,... entonces solo has que utilizarlos para eso, no para cambiar el estilo de la letra</h1>
+    <p>Esto es para hacer un párrafo normal
+        
+        se puede bajar dentro de aquí para separar los textos
+    </p>
+    <hr>
+    <p>Se hace una línea con hr</p>
+    <p>Esto texto es <span style="Color:red">mucho más largo</span> y es para hacer una prueba de la etiqueta
+        span que sirve para modificar una parte del texto, y la etiqueta br:<br> Que sirve para separar líneas
+    </p>
+    <a target="_blank" href="https://www.youtube.com/watch?v=3ryID_SwU5E">Esto es un botón hecho con "< a >" que te lleva a un vídeo de Mr.Beast</a>
+    <!--Target _blank es para que cree una nueva pestaña en vez de poner Mr.Beast en la misma-->
+    <br><img src="imagenes/imagen_91.jpg" width="100"/>
+    <p>Esto es una imagen de Mario haciendo el Subnormal <br> src es para poner la foto, y lo único Que
+    hay que hacer es poner la dirección de la imagen local o https, width es para poner el tamaño 
+    en píxeles de la imagen.</p>
+    <p><br>Para solo variar la altura seria height , y el ancho sería width, si solo mandas una
+    se variaran las dos a la vez pero si mandas las dos se pondrá el valor asignado en las dos: <br></p>
+    <img src="imagenes/imagen_91.jpg" width="1500" height="400"/> <br> <br> <br> <br>
+
+    <form>
+        <!--Esto es para hacer un formulario-->
+        <label for="nombre">Nombre</label> <!--Esto es para ponerle una etiqueta al formulario, lo de for"nombre" y id "nombre" es para que si le das click a la etiqueta también puedas escribir-->
+        <input type="texto" id="nombre" name="Nomrbe" placeholder="Nombre"/> <!--type es para poner el tipo de
+            input:"submit" un botón de enviar, "email", "pasword", oculta el valor que pongas, 
+            "radio" que hace que sea un valor que sea True o False, "checkbox" lo mismo 
+            pero que puedes darle click a más de uno, "file" que pones un archivo y "text" 
+            que ingresas algo del teclado, name es para 
+            ponerle nombre al input(la variable) y placeholder para que en el botón de formulario
+            ponga "Nombre" y sepas que tienes que poner tu nombre-->
+            <br>
+            <label for="apellido" >Esta parte es para poner el nombre del input a la izquierda</label>
+            <input type="text" id="apellido" name="apellido" placeholder="Apellido"/>
+    </form>
+</body>
+</html>
